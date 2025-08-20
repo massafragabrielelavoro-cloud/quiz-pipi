@@ -9,9 +9,18 @@ st.write("Qual è stata la prima parola che hai sentito uscire dalla mia voce?")
 
 
 # Risposta personalizzata
-if risposta == "Massa":
+risposta1 = input()
+    if risposta1 == "Massa":
         st.success("✅ Bravissima Pipi, ma come hai fatto a ricordartelo?")
-else:
+    else:
         st.error(f"❌ Noooooo Pipi, chiu chiu chiu chiu")
 
 
+
+
+# Risposta personalizzata
+if risposta:
+    if risposta == "Guadalupe":
+        st.success("✅ Ma allora Pipi se lo sai, perché non ci sposiamo????!!!!!!")
+    else:
+        st.error(f"❌ Ma sei tu Pipi, sei tuuuuuuuuuu")
